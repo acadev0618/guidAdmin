@@ -68,10 +68,10 @@
                     configOverwrite: { 
                         startAudioOnly: true,
                         enableWelcomePage: false,
-                        enableClosePage: true,
+                        enableClosePage: false,
                         prejoinPageEnabled: false,
                         enableInsecureRoomNameWarning: false,
-                        disableThirdPartyRequests: true
+                        disableThirdPartyRequests: false
                          },
                     interfaceConfigOverwrite: {
                         APP_NAME: 'Guid.fm for Listener',
