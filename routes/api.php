@@ -19,3 +19,4 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 
 Route::get('getRoom', 'API\APIController@getRoom');
 Route::post('createRoom', 'API\APIController@createRoom');
+Route::post('deleteRoom', 'API\APIController@deleteRoom');
