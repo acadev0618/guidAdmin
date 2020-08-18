@@ -67,7 +67,7 @@
                     height: 700,
                     configOverwrite: { 
                         startAudioOnly: true,
-                        startWithAudioMuted: true,
+                        startWithAudioMuted: false,
                         startSilent:false,
                         enableWelcomePage: false,
                         enableClosePage: false,
@@ -79,7 +79,7 @@
                         APP_NAME: 'Guid.fm for Listener',
                         DISABLE_JOIN_LEAVE_NOTIFICATIONS: true,
                         TOOLBAR_BUTTONS: [
-                            'microphone', 'hangup'
+                            'hangup'
                         ],
                      },
                 };
