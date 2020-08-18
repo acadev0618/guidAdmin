@@ -67,6 +67,8 @@
                     height: 700,
                     configOverwrite: { 
                         startAudioOnly: true,
+                        startWithAudioMuted: true,
+                        startSilent:false,
                         enableWelcomePage: false,
                         enableClosePage: false,
                         prejoinPageEnabled: false,
