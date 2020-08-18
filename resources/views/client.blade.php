@@ -53,14 +53,14 @@
             }
         </style>
 
-        <script src='https://meet.jit.si/external_api.js'></script>
+        <script src='https://jitsi.guidyo.net/external_api.js'></script>
         <script>
             /** CONFIG **/
             function init() {
                 //document.getElementById("startdlg").style.visibility = "hidden";
                 var channel_name = document.getElementById("channel_name").value;
                 document.getElementById("startdlg").innerHTML = "";
-                const domain = 'meet.jit.si';
+                const domain = 'jitsi.guidyo.net';
                 const options = {
                     roomName: channel_name,
                     width: 1024,
