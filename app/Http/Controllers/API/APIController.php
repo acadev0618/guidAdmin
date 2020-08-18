@@ -32,4 +32,13 @@ class APIController extends Controller
             }
         }
     }
+
+    public function deleteRoom(Request $request) {
+        $result = DB::delete('delete room_table where room_name = "'.$request->room_name.'"', ['John']);
+        if(!$result) {
+            return response()->json(['status' => '404', 'error_code' => '1', 'message' => 'Something went wrong.']);
+        } else {
+            return response()->json(['status' => '200', 'error_code' => '0', 'message' => 'Successfully deleted room.']);
+        }
+    }
 }

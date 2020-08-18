@@ -44,6 +44,7 @@
                 .select_option{
                     height: 35px; 
                     width: 210px;
+                    font-size: 14px;
                 }
                 .button1 {
                     height: 35px;
