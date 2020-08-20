@@ -68,18 +68,17 @@
                     configOverwrite: { 
                         startAudioOnly: true,
                         startWithAudioMuted:true,
-                        startSilent:false,
                         enableWelcomePage: false,
-                        enableClosePage: false,
+                        enableClosePage: true,
                         prejoinPageEnabled: false,
                         enableInsecureRoomNameWarning: false,
-                        disableThirdPartyRequests: false
+                        disableThirdPartyRequests: true
                          },
                     interfaceConfigOverwrite: {
                         APP_NAME: 'Guid.fm for Listener',
                         DISABLE_JOIN_LEAVE_NOTIFICATIONS: true,
                         TOOLBAR_BUTTONS: [
-                            'hangup'
+                            'microphone','hangup'
                         ],
                      },
                 };
