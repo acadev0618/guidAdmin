@@ -83,7 +83,7 @@
                      },
                 };
                 const api = new JitsiMeetExternalAPI(domain, options);
-                api.executeCommand('displayName', 'smiss');
+                api.executeCommand('displayName', 'Listener');
             }
 
         </script>
